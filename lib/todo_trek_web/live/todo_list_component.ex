@@ -110,6 +110,8 @@ defmodule TodoTrekWeb.TodoListComponent do
     {:ok, stream_delete(socket, :todos, to_change_form(todo, %{}))}
   end
 
+  # This is the `update` that actually initializes the component state
+  # it wasn't super easy to find since it blends in with the others
   def update(%{list: list} = assigns, socket) do
     todo_forms = Enum.map(list.todos, &to_change_form(&1, %{}))
 

@@ -60,7 +60,7 @@ This app uses this technique in the list form component, along with some client-
 
 
 ## More references
-- [ElixirConf EU Keynote](https://www.youtube.com/watch?v=FADQAnq0RpA)
+- [ElixirConf EU Keynote](https://www.youtube.com/watch?v=FADQAnq0RpA) - New stuff starts ~31:22
 - [LiveView 0.19 release announcement](https://phoenixframework.org/blog/phoenix-liveview-0.19-released)
 - [Stream docs](https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html#stream/4)
 - [Sorting / dropping assoc / embeds](https://hexdocs.pm/ecto/Ecto.Changeset.html#cast_assoc/3-partial-changes-for-many-style-associations)
